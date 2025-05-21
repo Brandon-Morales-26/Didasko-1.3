@@ -2,8 +2,15 @@ const express =  require('express');
 const app = express();
 const mime = require('mime-types');
 const path = require('path');
-
+const fs = require('fs'); // Añade esto con los otros 'require'
 app.set('views', path.join(__dirname, 'views'));
+
+
+
+
+
+console.log('__dirname:', __dirname);
+console.log('Contenido de views/:', fs.readdirSync(path.join(__dirname, 'views')));
 
 
 app.set("view engine", 'ejs');
