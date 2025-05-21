@@ -1,0 +1,100 @@
+/*No modificar o quitar las importaciones*/
+@import url(img.css);
+/*Estilo de la barra de navegacion MODIFICAR CON PRUDENCIA Y NO ELIMINAR*/
+.nav{
+    padding: 0 20px;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.narbar {
+    position: sticky;
+    top: 0;
+}
+
+
+
+.menu{
+    width: 420px;
+    display: flex;
+    justify-content: center;
+}
+
+/*estilo de las opciones de la barra de navegacion*/
+a{
+    text-decoration: none;
+    color:#3e993e;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    margin: 0 15px;
+    transition: transform 0.3s ease;
+}
+
+a:hover{
+    color: #2a702a;
+    transform: scale(1.05);  
+}
+
+a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    background: #3b913b;
+    margin: 4px auto 0;
+}
+a:hover::after{
+    background: #2a702a;
+}
+
+/*Estilo del encabezado*/
+.header {
+    background: linear-gradient(135deg, #529c3b 0%, #50bb97 100%);
+    color: white;
+    text-align: center;
+    padding: 160px 16px;
+    overflow: hidden;
+}
+
+.header h1 {
+    font-size: 56px;
+    font-weight: 700px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS';
+}
+
+.header p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, Verdana;
+}
+
+/*Estilo del footer */
+.footer {
+    background-color: #2d2d2d;
+    color: white;
+    display: flex;
+    padding: 32px 16px;
+    margin-top: 48px;
+    justify-content: center;
+}
+
+.contact{
+    padding: 30px 16px;
+
+}
+
+.icon {
+    width: 280px;
+    height: 100px;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+
+/*estilo del recuadro del logo. MODIFICAR CON PRUDENCIA Y NO ELIMINAR*/
+.logo{
+    width: 85px;
+    height: 85px;
+    margin-left: 20px;
+    align-items: center;
+    background-image: url(../image/isotipo.png);
+    background-size: cover;
+}
+
+/*estilo del recuadro de imagenes, MODIFICAR CON PRUDENCIA Y NO ELIMINAR*/
+.div-img{
+    flex: 1;
+    min-width: 300px;
+    height: 400px;
+    background-color: transparent;
+    border-radius: 8px;
+    background-size:90%;
+    background-position: center;
+}
+
+/*Para añadir una imagen, coloca background-image: url(RUTA DE LA IMAGEN QUE DESEAS COLOCAR)*/
+
+/*imagen del apartado de mision*/
+.image1{
+    background-image: url(../image/isotipo.png);
+}
+
+/*imagen del apartado de vision*/
+.image2{
+    background-image: url(../image/vision.png);
+    background-size: cover;
+
+}
+/*imagen del apartado de Reseña historica*/
+.image3{
+    background-image: url(../image/Reseña.png);
+    background-size: cover;
+}

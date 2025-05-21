@@ -1,0 +1,126 @@
+/*No modificar o quitar las importaciones*/
+@import url(index.css);
+@import url(img.css);
+
+/*Estilo para la raya debajo de los titulos*/
+.section-title:after {
+  width: 170px;
+}
+
+/*atributos del contenedor de las CARD de la estructura organizativa. MODIFICAR CON PRUDENCIA Y NO ELIMINAR*/
+.container-founder{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto 75px;
+  width: 85%;
+  flex-wrap: wrap;
+}
+
+/*estilo del cuerpo de las CARD*/
+.card-body{
+  background-color: #FFFFFF;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  margin: 25px 0;
+  height: 350px;
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card-body:hover{
+  transform: translateY(-10px);
+}
+
+.line-color{
+  height: 20px;
+  background-color: #3b913b;
+  border-radius: 10px 10px 0 0;
+}
+
+/*estilo del texto de las tarjetas*/
+.card-body .card-text{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 315px;
+}
+
+/*estilo del texto de los puestos de trabajo*/
+.tag{
+  font-family: 'Lora', serif;
+  font-size: 13px;
+  color: #898989;
+  letter-spacing: 3px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+ /*estilo de texto de los nombres*/
+.card-text h2{
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+/*estilo de texto de la descripcion*/
+.text{
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 20px auto;
+  text-align: center;
+  width: 85%;
+}
+
+/*Responsive para el tamaño de las CARD. MODIFICAR CON PRUDENCIA Y NO ELIMINAR*/
+    
+@media (min-width:1024px){
+
+  .text{
+    padding-bottom: 25px;
+  }
+
+  .container-founder{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card-body{
+    margin: 25px 10px;
+    width: 30%;
+  }
+
+}
+@media not (min-width:1024px){
+
+  .card-body{
+    height: 290px;
+    width: 47%;
+    margin-right: 22px;
+  }
+
+}
+
+
+@media (max-width:880px){
+
+  .card-body{
+    height: 250px;
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width:500px){
+
+  .card-body{
+    height: 300px;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+
+}

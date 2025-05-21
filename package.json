@@ -1,0 +1,17 @@
+{
+  "name": "didasko_c_a",
+  "version": "1.0.0",
+  "description": "Pagina wed de didasko",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Grupo 3",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mime-type": "^5.0.3",
+    "nodemon": "^3.1.10"
+  }
+}

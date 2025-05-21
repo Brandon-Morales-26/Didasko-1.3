@@ -1,0 +1,22 @@
+@import url(nar.css);
+@import url(index.css);
+
+p{
+    text-align: justify;
+    margin: 7px 0px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.p-slogan{
+    text-align: center;
+}
+
+.icon {
+    width: 280px;
+    height: 100px;
+    text-align: center;
+}
